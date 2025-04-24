@@ -35,7 +35,7 @@ export default function Records() {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.5 }}
       className="max-w-md w-full mx-auto p-4 space-y-6"
     >
       <h2 className="text-2xl font-bold text-center">Records</h2>
